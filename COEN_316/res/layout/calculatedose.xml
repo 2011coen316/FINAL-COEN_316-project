@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:text="Please enter your Sugar level" android:layout_width="match_parent" android:id="@+id/textView1" android:layout_height="wrap_content" android:textSize="20sp"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:inputType="numberDecimal" android:editable="true" android:id="@+id/txtsugarlevel" android:numeric="integer"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Calculate Dose" android:id="@+id/buttoncalculate" android:clickable="true" android:textSize="20sp"></Button>
+    <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow1" android:layout_width="match_parent">
+        <EditText android:id="@+id/editText1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Insulin Dose" android:editable="false" android:enabled="false" android:textSize="20sp"></EditText>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:editable="false" android:id="@+id/textinsulin"></EditText>
+    </TableRow>
+    <TableRow android:layout_height="wrap_content" android:id="@+id/tableRow2" android:layout_width="match_parent">
+        <EditText android:id="@+id/editText2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Metformin Dose" android:editable="false" android:enabled="false" android:textSize="20sp"></EditText>
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:editable="false" android:id="@+id/textmetformin" android:numeric="integer"></EditText>
+    </TableRow>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:inputType="textMultiLine" android:id="@+id/textnote" android:text="Note: Meal is to be taken after taking the drugs dose." android:editable="false" android:enabled="false" android:clickable="false" android:textSize="20sp"></EditText>
+    <RelativeLayout android:layout_height="wrap_content" android:id="@+id/relativeLayout1" android:layout_width="match_parent">
+    </RelativeLayout>
+    
+</LinearLayout>
