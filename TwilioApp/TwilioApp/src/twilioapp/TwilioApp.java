@@ -33,11 +33,11 @@ private void sendsms() {
 
 	//build map of server admins
 	Map<String,String> admins = new HashMap<String,String>();
-	admins.put("(408) 332-8414", "Sushil");
+	admins.put("(408) 504-0107", "Rohit Dumbre");
 
 	// Iterate over all our server admins
 	for (Map.Entry<String, String> entry : admins.entrySet()) {
-	// Send a new outgoinging SMS by POST’ing to the SMS resource */
+	// Send a new outgoinging SMS by POSTï¿½ing to the SMS resource */
 	// YYY-YYY-YYYY must be a Twilio validated phone number
 
 	//build map of post parameters
