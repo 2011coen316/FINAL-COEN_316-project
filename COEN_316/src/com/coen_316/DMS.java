@@ -40,7 +40,7 @@ public class DMS extends Activity implements OnClickListener{
 			String uname = etUsername.getText().toString();
 			String password = etPassword.getText().toString();
 	     
-			if(uname.equals("sushil") && password.equals("123"))
+			if(uname.equals("User") && password.equals("password"))
 			{
 				startActivity(new Intent(DMS.this, Afterlogin.class));
 				
