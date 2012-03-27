@@ -20,7 +20,7 @@ public class CalculateDose extends Activity implements OnClickListener{
 		super.onCreate(savedInstanceState);
         setContentView(R.layout.calculatedose);
         
-        System.out.print("hello asdasdasdsadasd");
+     
         
      // BUTTON FOR CAL_DOSE;
 		Button btncalculatedose = (Button) findViewById(R.id.buttoncalculate);
