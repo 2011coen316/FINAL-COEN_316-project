@@ -40,7 +40,7 @@ public class MedNotTaken
 		
        catch(Exception e)
 	   {
-	   		System.err.println("Unknownsadasda server");
+	   		System.err.println("Unknown server");
 	   		e.printStackTrace();
 	   	}
 		
